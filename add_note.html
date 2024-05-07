@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adição/Edição de Nota Fiscal - Sistema de Controle de Notas Fiscais</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="add-edit-nota-container">
+        <h2>Adição/Edição de Nota Fiscal</h2>
+        <form id="nota-form">
+            <div class="form-group">
+                <label for="numero">Número da Nota:</label>
+                <input type="text" id="numero" name="numero" required>
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+            <div class="form-group">
+                <label for="cliente">Cliente:</label>
+                <input type="text" id="cliente" name="cliente" required>
+            </div>
+            <div class="form-group">
+                <label for="itens">Itens:</label>
+                <textarea id="itens" name="itens" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="valor">Valor Total:</label>
+                <input type="text" id="valor" name="valor" required>
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Salvar</button>
+                <br>
+                <button type="button" onclick="cancelar()">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        function cancelar() {
+            // Implemente a lógica para cancelar a operação, se necessário
+        }
+    </script>
+</body>
+</html>

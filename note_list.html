@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Notas Fiscais - Sistema de Controle de Notas Fiscais</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="notas-fiscais-container">
+        <h2>Lista de Notas Fiscais</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número da Nota</th>
+                    <th>Data</th>
+                    <th>Valor Total</th>
+                    <th>Cliente</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>01/05/2024</td>
+                    <td>R$ 500,00</td>
+                    <td>Cliente A</td>
+                    <td>
+                        <button> <a href="detals_note.html" title="Detalhes">Detalhes</a></button>
+                        <button>Editar</button>
+                        <button>Excluir</button>
+                    </td>
+                </tr>
+                <!-- Mais linhas da tabela podem ser adicionadas dinamicamente com dados do backend -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
